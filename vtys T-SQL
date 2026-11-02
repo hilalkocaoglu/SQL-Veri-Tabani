@@ -1,0 +1,11 @@
+-- Yöntem 1: Doğrudan değişkenle Birleştirip Çalıştırma
+DECLARE VARCHAR(20)
+SET = 'KITAPLAR'
+EXECUTE('SELECT * FROM ' + )
+
+-- Yöntem 2: Sorgu Metnini ayrı değişkende oluşturup çalıştırma
+DECLARE VARCHAR(20)
+DECLARE VARCHAR(MAX)
+SET = 'KITAPLAR'
+SET = 'SEÇ * IÇINDEN' +
+EXECUTE()
